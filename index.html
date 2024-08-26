@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+
+    <main>
+
+    <img class="logo" src="assets/zanahoria.png">
+
+    <div class="main-container">
+        
+            <textarea rows="5" placeholder="Ingrese el texto aquí! :D" id="input"></textarea>
+
+            <div class="aviso-container">
+
+                <img class="aviso" src="assets/!.png">
+                <a class="info-reglas">Solo letras minúsculas y sin acentos!
+                </a>
+            </div>
+
+        <div class="boton-container">
+            <button onclick="tieneEspecial()" class="boton encriptar">Encriptar</button>
+            <button onclick="desencriptarTexto()" class="boton desencriptar">Desencriptar</button>
+        </div>
+    </div>
+
+    <div class="fondo-second-container">
+        <div class="second-container">
+            <textarea rows="7" class="texto-introducido">¡Aun no has escrito nada! u-u</textarea>       
+            <button onclick="copiar()" class="boton copiar">Copiar</button>
+
+        </div>
+    </div>
+
+    </main>
+
+    <footer class="footer">
+        <p >Creado por: Marcos Soliz</p>
+    </footer>
+    <script src="app.js" ></script>
+
+</body>
+</html>
